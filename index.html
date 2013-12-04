@@ -1,0 +1,23 @@
+---
+
+---
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+        <meta name="author" content="{{ site.author }}">
+
+        {% capture description %}
+                {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}
+        {% endcapture %}
+        <meta name="description" content="{{ description }}">
+        {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		
+</head>
+<body>
+	<h1>Hello there friend...</h1>
+</body>
+</html>

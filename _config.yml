@@ -1,0 +1,38 @@
+#
+# Blog Settings (totally stolen from haacked.com for now)
+#
+name: Tom Anderson
+description: Stuff things have been happened.
+url: http://tomanderson.me
+title: Tom Anderson
+subtitle: ... not that one... or the other one...
+gravatar_url: https://2.gravatar.com/avatar/1822257954fd46d7ab7732998776a80a
+subscribe_rss: http://somefeed
+
+# Github repositories
+github_user: RenEvo
+github_repo_url: https://github.com/RenEvo/tomanderson.me/
+
+# Twitter
+twitter_user: TribalTom
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: TribalTom
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-######-1
+
+
+#
+# Jekyll Settings
+#
+markdown: rdiscount
+pygments: true
+permalink: /archive/:year/:month/:day/:title/
+rdiscount:
+  extensions: [smart]
+paginate: 5
+paginate_path: "page/:num"
+category_dir: categories
