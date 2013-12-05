@@ -1,4 +1,4 @@
-tanderson.me
+tomanderson.me
 ============
 
-http://tanderson.me Blog Site
+Standard GitHub Page
