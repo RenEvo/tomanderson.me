@@ -2,11 +2,18 @@
 
 ---
 Create Repository
+
 Create gh-pages branch
+
 Set new branch to default.
+
 Delete master branch.
+
 Map the @ record in DNS to the 204.232.175.78
+
 https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-the-domain-in-your-repo
+
+
 
 
 Add CNAME to root with domain name.
