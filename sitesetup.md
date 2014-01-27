@@ -21,21 +21,41 @@ Add CNAME to root with domain name.
 Wait a while for site to update.
 
 Install Ruby
+
 https://www.ruby-lang.org/en/downloads/
 
 RubyInstaller
+
 http://rubyinstaller.org/downloads/
 
 I installed 1.9.3
+
 I also checked the option to include it in my windows path (easier)
 
 Install 4.5.2 DevKit (from ruby downloads)
+
 Initialize DevKit
+
 https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
 
+navigate to extracted directory:
+
+ruby dk.rb init
+
+ruby dk.rb install
+
+Verify that devkit is in path variable, or run the devkitvars.bat (optional)
 
 Add the Gemfile
 
-run a bundle install in repo (should add a gemfile.lock)
+gem install bundler
+
+navigate to repo
+
+bundle install (if invalid cert, change https to http in gemfile for source) *adds a gemfile.lock
+
+** TODO **
+
+
 
 
