@@ -54,6 +54,30 @@ navigate to repo
 
 bundle install (if invalid cert, change https to http in gemfile for source) *adds a gemfile.lock
 
+run site: bundle exec jekyll serve (ctrl+c to stop)
+
+http://localhost:4000
+
+Add a _config.yml
+
+ - This is also a great place to define any variables that you want to use.
+ 
+Create some directory structure
+
+http://jekyllrb.com/docs/structure/
+
+install boostrap (and theme it i would suppose)
+
+create the default _layout
+
+create the home page
+
+create some other pages (about/contact/posts)
+
+create the posts _layout
+
+etc....
+
 ** TODO **
 
 
