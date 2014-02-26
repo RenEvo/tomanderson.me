@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>stateless-4.0</id>
+    <version>2.3.1.1</version>
+    <title>Stateless for .NET 4.0</title>
+    <authors>Joel D. Martinez</authors>
+    <owners>Joel D. Martinez</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://code.google.com/r/joelmartinez-stateless/source/browse</projectUrl>
+    <iconUrl>http://code.google.com/p/stateless/logo?cct=1252864008</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a clone of the original stateless repository (owned by Nicholas Blumhardt), compiled for .NET 4.0. Stateless is a base for exploration of   generic and functional programming to drive workflow in .NET. It allows you to state machines and lightweight state machine-based workflows directly in .NET code</description>
+    <summary>A C# Hierarchical State Machine</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>statemachine stateless</tags>
+  </metadata>
+</package>
