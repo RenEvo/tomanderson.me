@@ -1,0 +1,67 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in/
+[Oo]bj/
+
+# mstest test results
+TestResults
+
+# TFS Build Templates
+BuildProcessTemplates
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.sln.GhostDoc.xml
+*.csproj.GhostDoc.xml
+*.sln.DotSettings
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# ReSharper
+_ReSharper*
+
+# Publish Web Output
+*.Publish.xml
+
+# Others
+[Bb]in
+[Oo]bj
+sql
+TestResults
+[Tt]est[Rr]esult*
+*.Cache
+ClientBin
+[Ss]tyle[Cc]op.*
+~$*
+*.dbmdl
+Generated_Code #added for RIA/Silverlight projects
+_PublishedWebSites
+_PublishedApplications
